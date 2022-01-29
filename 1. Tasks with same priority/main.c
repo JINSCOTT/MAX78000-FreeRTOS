@@ -42,15 +42,8 @@
 
   /***** Includes *****/
 #include <stdio.h>
-#include <stdint.h>
-#include <string.h>
 #include "mxc_device.h"
-#include "led.h"
-#include "board.h"
 #include "mxc_delay.h"
-#include "uart.h"
-#include "dma.h"
-#include "nvic_table.h"
 #include "FreeRTOS.h" /* Must come first. */
 #include "task.h"     /* RTOS task related API prototypes. */
 
