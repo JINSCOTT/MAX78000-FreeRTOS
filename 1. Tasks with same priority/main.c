@@ -100,7 +100,7 @@ successfully. */
 		/* Create the other task in exactly the same way and at the same priority. */
 		printf("error: %ud", error);
 		error = xTaskCreate(vTask2, "Task 2", 250, NULL, 1, NULL);
-		printf("error: %ud", error);
+		printf("error: %u", error);
 	/* Start the scheduler so the tasks start executing. */
 	vTaskStartScheduler();
 
